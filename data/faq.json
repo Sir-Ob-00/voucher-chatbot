@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "keywords": ["price", "cost", "how much", "fee", "pricing", "charge"],
+    "question": "How much do exam vouchers cost?",
+    "answer": "Our exam voucher prices vary depending on the exam type. BECE, WASSCE, and NOVDEC vouchers each have different pricing based on official exam requirements. Visit the pricing page or search for a specific voucher to see the exact cost."
+  },
+  {
+    "id": 2,
+    "keywords": ["buy", "purchase", "order", "get", "acquire", "how to buy"],
+    "question": "How do I purchase an exam voucher?",
+    "answer": "To purchase a voucher: (1) Select your exam type (BECE, WASSCE, or NOVDEC), (2) Add the voucher to your cart, (3) Proceed to checkout, (4) Complete payment via Mobile Money or other supported methods, (5) Your voucher code will be delivered instantly after payment."
+  },
+  {
+    "id": 3,
+    "keywords": ["expire", "expiry", "expiration", "valid", "validity", "how long"],
+    "question": "How long is a voucher valid?",
+    "answer": "Voucher validity depends on the exam cycle. BECE, WASSCE, and NOVDEC vouchers are typically valid for the specific examination period they are purchased for. The expiry date is clearly stated on each voucher."
+  },
+  {
+    "id": 4,
+    "keywords": ["refund", "cancel", "return", "money back", "cancellation"],
+    "question": "Can I get a refund on a voucher?",
+    "answer": "Refunds are available only if the voucher has NOT been used or activated. Once a voucher has been redeemed or issued for an exam, it becomes non-refundable. Please contact support for assistance with refund requests."
+  },
+  {
+    "id": 5,
+    "keywords": ["payment", "pay", "credit card", "momo", "mobile money", "bank", "transfer"],
+    "question": "What payment methods are accepted?",
+    "answer": "We accept Mobile Money (MTN, Vodafone, AirtelTigo), Bank Transfer, and other secure local payment options. All transactions are processed securely."
+  },
+  {
+    "id": 6,
+    "keywords": ["delivery", "receive", "when", "how soon", "instant", "sms", "email"],
+    "question": "When will I receive my voucher?",
+    "answer": "Vouchers are delivered instantly after successful payment. You will receive your voucher via SMS and/or email. If delivery is delayed, please check your spam folder or contact support."
+  },
+  {
+    "id": 7,
+    "keywords": ["discount", "promo", "coupon", "deal", "offer", "bulk", "group"],
+    "question": "Are there any discounts available?",
+    "answer": "Yes. We offer discounts for bulk purchases (schools, institutions, and agents). Seasonal promotions may also be available during exam periods. Check the pricing page or announcements for updates."
+  },
+  {
+    "id": 8,
+    "keywords": ["which exam", "available", "list", "providers", "certifications", "supported"],
+    "question": "Which exam vouchers are available on the platform?",
+    "answer": "We currently provide BECE, WASSCE, and NOVDEC exam vouchers. More educational and certification vouchers may be added in the future. Use the platform search bar to find available options."
+  },
+  {
+    "id": 9,
+    "keywords": ["redeem", "use", "activate", "apply", "how to use"],
+    "question": "How do I use my voucher?",
+    "answer": "To use your voucher, follow the official examination registration process. Enter the voucher code during registration on the approved exam system when prompted. Once applied, it will confirm your exam payment."
+  },
+  {
+    "id": 10,
+    "keywords": ["support", "help", "contact", "reach", "talk", "agent", "human"],
+    "question": "How can I contact support?",
+    "answer": "You can contact our support team via email or WhatsApp during working hours. We are available to assist with voucher issues, payments, and general inquiries."
+  },
+  {
+    "id": 11,
+    "keywords": ["account", "register", "sign up", "login", "log in", "profile"],
+    "question": "Do I need an account to purchase?",
+    "answer": "Yes, a free account is required to purchase vouchers. Registration takes less than 2 minutes and allows you to track your purchases and access your voucher history."
+  },
+  {
+    "id": 12,
+    "keywords": ["resit", "retake", "fail", "failed", "second attempt", "retry"],
+    "question": "Can I buy another voucher if I need a resit?",
+    "answer": "Yes. If you need to resit an exam, you can purchase a new voucher for the next available examination period. Availability depends on the official exam schedule."
+  }
+]
