@@ -37,10 +37,25 @@ const greetings = [
     "good morning",
     "good afternoon",
     "good evening",
+    "good day",
     "greetings",
+    "are you there",
+    "hi there",
     "what's up",
+    "whats up",
     "howdy",
     "sup",
+];
+
+const smallTalkPatterns = [
+    "how are you",
+    "how is it going",
+    "how are things",
+    "what's new",
+    "whats new",
+    "how's it going",
+    "how are you doing",
+    "how do you do",
 ];
 
 const processMessage = async (userMessage, sessionId = null) => {
@@ -65,6 +80,16 @@ const processMessage = async (userMessage, sessionId = null) => {
         return {
             answer: "Hello! How can I help you today?",
             source: "greeting",
+            faqId: null
+        };
+    }
+
+    //Small talk / greetings
+    if (smallTalkPatterns.some(p => normalized.includes(p))) {
+        return {
+            answer:
+            "I'm doing well. I'm here to help you with exam vouchers, pricing, payments, and results. How can I assist you today?",
+            source: "smalltalk",
             faqId: null
         };
     }
