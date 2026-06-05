@@ -43,6 +43,7 @@ const greetings = [
     "hi there",
     "what's up",
     "whats up",
+    "wasup",
     "howdy",
     "sup",
 ];
