@@ -96,7 +96,7 @@ const processMessage = async (userMessage, sessionId = null) => {
                     You can try:
                     - Rephrasing your question
                     - Asking about vouchers, pricing, payments, or results
-                    - Contacting support if you still need help`;
+                    - Contacting support at gyasireindorf42@gmail.com or call CivicTree at 0556069880 if you still need help`;
             source = "ai";
         }
     }
