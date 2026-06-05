@@ -119,14 +119,8 @@ const processMessage = async (userMessage, sessionId = null) => {
         source = "ai";
         } catch (aiError) {
             console.error("AI fallback error:", aiError.message);
-            answer = {
-                        text: "Sorry, I couldn’t find an answer to that.",
-                        suggestions: [
-                            "Rephrasing your question",
-                            "Asking about vouchers, pricing, payments, or results",
-                            "Contacting support at gyasireindorf42@gmail.com or call 0556069880"
-                        ]
-                    };
+            answer = `Sorry, I couldn’t find an answer to that.
+                    You can try: Rephrasing your question, Asking about vouchers, pricing, payments, or results or Contact support at gyasireindorf42@gmail.com or call CivicTree at 0556069880 if you still need help`;
             source = "ai";
         }
     }
