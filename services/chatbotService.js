@@ -46,6 +46,7 @@ const greetings = [
     "wasup",
     "howdy",
     "sup",
+    "sap"
 ];
 
 const smallTalkPatterns = [
