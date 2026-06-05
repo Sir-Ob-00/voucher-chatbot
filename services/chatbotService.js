@@ -28,18 +28,46 @@ advise the user to contact human support. Never make up pricing or policy detail
  * @param {string|null} sessionId
  * @returns {Promise<{ answer: string, source: 'faq'|'ai', faqId: number|null }>}
  */
+
+const greetings = [
+    "hi",
+    "hello",
+    "hey",
+    "yo",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "greetings",
+    "what's up",
+    "howdy",
+    "sup",
+];
+
 const processMessage = async (userMessage, sessionId = null) => {
     if (!userMessage || typeof userMessage !== "string") {
         throw new Error("Invalid message: must be a non-empty string.");
     }
 
     const trimmed = userMessage.trim();
+    const normalized = trimmed.toLowerCase();
     if (trimmed.length === 0) throw new Error("Message cannot be empty.");
     if (trimmed.length > 1000) throw new Error("Message too long. Max 1000 characters.");
 
     let answer;
     let source;
     let faqId = null;
+
+    // 0. Handle greetings FIRST (before FAQ)
+    const isGreeting = greetings.some(g =>
+        normalized === g || normalized.startsWith(g + " "));
+
+        if (isGreeting) {
+        return {
+            answer: "Hello! How can I help you today?",
+            source: "greeting",
+            faqId: null
+        };
+    }
 
   // 1. Try FAQ keyword matching
     const { match, score } = findBestMatch(trimmed, faqData, 1);
@@ -64,8 +92,11 @@ const processMessage = async (userMessage, sessionId = null) => {
         source = "ai";
         } catch (aiError) {
             console.error("AI fallback error:", aiError.message);
-            answer =
-                "I couldn't process your request right now. Please contact support at gyasireindorf42@gmail.com or call CivicTree at 0556069880 for any assistance.";
+            answer = `Sorry, I couldn’t find an answer to that.
+                    You can try:
+                    - Rephrasing your question
+                    - Asking about vouchers, pricing, payments, or results
+                    - Contacting support if you still need help`;
             source = "ai";
         }
     }
