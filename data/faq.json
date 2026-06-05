@@ -14,8 +14,8 @@
   {
     "id": 3,
     "keywords": ["expire", "expiry", "expiration", "valid", "validity", "how long"],
-    "question": "How long is a voucher valid?",
-    "answer": "Voucher validity depends on the exam cycle. BECE, WASSCE, and NOVDEC vouchers are typically valid for the specific examination period they are purchased for. The expiry date is clearly stated on each voucher."
+    "question": "Do vouchers expire?",
+    "answer": "No, CivicTree vouchers never expire. You can use your voucher anytime, giving you complete flexibility to study and take your exam at your own pace"
   },
   {
     "id": 4,
@@ -27,7 +27,7 @@
     "id": 5,
     "keywords": ["payment", "pay", "credit card", "momo", "mobile money", "bank", "transfer"],
     "question": "What payment methods are accepted?",
-    "answer": "We accept Mobile Money (MTN, Vodafone, AirtelTigo), Bank Transfer, and other secure local payment options. All transactions are processed securely."
+    "answer": "We accept Mobile Money (MTN, Telecel, AirtelTigo), Visa cards, and Mastercard. All transactions are processed securely."
   },
   {
     "id": 6,
@@ -39,19 +39,19 @@
     "id": 7,
     "keywords": ["discount", "promo", "coupon", "deal", "offer", "bulk", "group"],
     "question": "Are there any discounts available?",
-    "answer": "Yes. We offer discounts for bulk purchases (schools, institutions, and agents). Seasonal promotions may also be available during exam periods. Check the pricing page or announcements for updates."
+    "answer": "You can contact our support team for discount related inquiries via email or WhatsApp during working hours. We are available to assist with voucher issues, payments, and general inquiries."
   },
   {
     "id": 8,
     "keywords": ["which exam", "available", "list", "providers", "certifications", "supported"],
     "question": "Which exam vouchers are available on the platform?",
-    "answer": "We currently provide BECE, WASSCE, and NOVDEC exam vouchers. More educational and certification vouchers may be added in the future. Use the platform search bar to find available options."
+    "answer": "CivicTree currently supports three major Ghanaian exams: BECE (Basic Education Certificate Exam), WASSCE (West African Senior School Certificate Exam), and NOVDEC (National Office for Vocational Education and Training December Exam)"
   },
   {
     "id": 9,
     "keywords": ["redeem", "use", "activate", "apply", "how to use"],
     "question": "How do I use my voucher?",
-    "answer": "To use your voucher, follow the official examination registration process. Enter the voucher code during registration on the approved exam system when prompted. Once applied, it will confirm your exam payment."
+    "answer": "Visit our website to follow the step-by-step guide on how use your voucher. Gnerally, you will log in to Ghana WEAC portal, select exam type and follow the instructions to check your results"
   },
   {
     "id": 10,
@@ -63,12 +63,12 @@
     "id": 11,
     "keywords": ["account", "register", "sign up", "login", "log in", "profile"],
     "question": "Do I need an account to purchase?",
-    "answer": "Yes, a free account is required to purchase vouchers. Registration takes less than 2 minutes and allows you to track your purchases and access your voucher history."
+    "answer": "No!.  Account registration is not required to purchase vouchers. Use the USSD code or use the buy on the website to purchase your voucher."
   },
   {
     "id": 12,
     "keywords": ["resit", "retake", "fail", "failed", "second attempt", "retry"],
-    "question": "Can I buy another voucher if I need a resit?",
-    "answer": "Yes. If you need to resit an exam, you can purchase a new voucher for the next available examination period. Availability depends on the official exam schedule."
+    "question": "Can I buy another voucher?",
+    "answer": "Yes!, absolutely! You can buy another voucher at anytime. In multiple purchase too, during checkout, you can select any quantity from 1 to 20 vouchers in a single purchase. Perfect for schools or group purchases"
   }
 ]
